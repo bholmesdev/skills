@@ -1,19 +1,17 @@
 ---
 name: transcribe
-description: Create clean, subtitle-ready `.srt` subtitles for a local audio or video file using Whisper CLI. Use this when the user asks to transcribe a local media file, generate subtitles, create captions, or make an `.srt` for a specific local file path. Pass the target filename as `$0`.
+description: Create clean, subtitle-ready `.srt` subtitles for a local audio or video file using Whisper CLI. Use this when the user asks to transcribe a local media file, generate subtitles, create captions, or make an `.srt` for a specific local file path.
 ---
 
 # transcribe
 
 ## Input
-The target local media file path is provided as `$0`.
-
-If `$0` is missing, ask the user for the local media file path and stop.
+Use the media file path the user provided. If it's unclear which file to transcribe, ask the user for the local media file path and stop.
 
 ## Instructions
 When this skill is invoked, do the work immediately.
 
-1. Run Whisper on `$0` and write an `.srt` file next to the source media file.
+1. Run Whisper on the input file and write an `.srt` file next to the source media file.
 2. Review the generated subtitles and make them clean and subtitle-ready rather than overly literal.
 3. Reveal the final `.srt` file in Finder.
 4. Report the output `.srt` path.
@@ -32,7 +30,7 @@ You must optimize the subtitles for readability while preserving meaning and app
 Run Whisper with the provided media file:
 
 ```bash
-INPUT="$0"
+INPUT="<media file path>"
 whisper "$INPUT" --output_format srt --output_dir "$(dirname "$INPUT")"
 ```
 
