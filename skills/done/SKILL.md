@@ -1,6 +1,6 @@
 ---
 name: done
-description: Finish a feature in a git worktree. Use when the user says work is done, asks to merge a worktree back to main/master, clean up a worktree, or close the related issue.
+description: When we finish a feature. Use when the user says work is done, asks to merge a worktree back to main/master, or clean up a worktree.
 ---
 
 Review remaining uncommitted code. If all changes are related and can fit into an atomic commit, create a single commit. If work should be broken into multiple atomic commits, do so and commit all.
