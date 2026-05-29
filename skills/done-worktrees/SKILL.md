@@ -1,5 +1,5 @@
 ---
-name: done-worktrees
+name: done
 description: Finish a feature in a git worktree. Use when the user says work is done, asks to merge a worktree back to main/master, clean up a worktree, or close the related issue.
 ---
 
