@@ -1,6 +1,6 @@
 ---
 name: done-worktrees
-description: Use this skill when the human has decide we're done working on the feature, and we're ready to merge into main.
+description: Finish a feature in a git worktree. Use when the user says work is done, asks to merge a worktree back to main/master, clean up a worktree, or close the related issue.
 ---
 
 Review remaining uncommitted code. If all changes are related and can fit into an atomic commit, create a single commit. If work should be broken into multiple atomic commits, do so and commit all.
