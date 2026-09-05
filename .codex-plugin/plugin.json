@@ -1,0 +1,38 @@
+{
+  "name": "skills",
+  "description": "General-purpose skills for everyday dev work: alt text, wrapping up a feature, freeing disk space, simplifying code, taste-driven review calls, and transcribing media.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ben Holmes",
+    "url": "https://github.com/bholmesdev"
+  },
+  "homepage": "https://github.com/bholmesdev/skills",
+  "repository": "https://github.com/bholmesdev/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "productivity",
+    "workflow",
+    "accessibility",
+    "git",
+    "code-review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Skills",
+    "shortDescription": "General-purpose skills for everyday dev work.",
+    "longDescription": "General-purpose skills for everyday dev work: alt text, wrapping up a feature, freeing disk space, simplifying code, taste-driven review calls, and transcribing media.",
+    "developerName": "Ben Holmes",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/bholmesdev/skills",
+    "defaultPrompt": [
+      "Write alt text for this image.",
+      "We're done with this feature, wrap it up.",
+      "My disk is full, help me free up space."
+    ]
+  }
+}

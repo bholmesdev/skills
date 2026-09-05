@@ -1,0 +1,29 @@
+{
+  "name": "bholmesdev-skills",
+  "id": "bholmesdev-skills",
+  "owner": {
+    "name": "Ben Holmes",
+    "url": "https://github.com/bholmesdev"
+  },
+  "metadata": {
+    "description": "General-purpose skills for everyday dev work: alt text, wrapping up a feature, freeing disk space, simplifying code, taste-driven review calls, and transcribing media.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skills",
+      "source": "./",
+      "description": "General-purpose skills for everyday dev work: alt text, wrapping up a feature, freeing disk space, simplifying code, taste-driven review calls, and transcribing media.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ben Holmes"
+      },
+      "keywords": [
+        "skills",
+        "productivity",
+        "workflow"
+      ],
+      "category": "workflow"
+    }
+  ]
+}
