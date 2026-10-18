@@ -16,7 +16,7 @@ When this skill is invoked, inspect the image directly and write alt text immedi
 - Describe what is visually present and important.
 - Do not say `picture of`, `image of`, `screenshot of`, or `diagram of`.
 - Describe what the image shows, not the file type or medium.
-- Keep the alt text concise and focused on the essential content.
+- Keep the alt text concise and focused on the essential content. Prefer 500 characters or fewer; for text-heavy images, summarize the key points instead of transcribing everything.
 - Do not add extraneous details, speculation, backstory, or interpretation that is not clearly visible.
 - If visible text is important to understanding the image, include the key text briefly.
 
